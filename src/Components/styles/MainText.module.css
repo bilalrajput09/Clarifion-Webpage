@@ -1,11 +1,9 @@
 .main_text_container {
-  text-align: center;
   font-size: 24px;
+  text-align: center;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%; /* 33.6px */
   text-transform: capitalize;
-  margin: 24px 20px;
 }
 
 .main_text_container span {

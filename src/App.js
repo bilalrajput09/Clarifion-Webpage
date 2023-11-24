@@ -3,7 +3,7 @@ import Slider from './Components/Slider';
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import OrderProcess from './Components/OrderProcess';
-import MainText from './Components/MainText';
+import MainContainer from './Components/MainContainer';
 
 const orderProcessArray = [
   { img_path: '/assets/Group 1484578147.png', text: 'Cart Review' },
@@ -27,7 +27,7 @@ function App() {
         ))}
       </div>
 
-      <MainText />
+      <MainContainer />
     </div>
   );
 }
