@@ -1,8 +1,10 @@
+import classes from './styles/SatisfactionContainer.module.css';
+
 const SatisfactionContainer = () => {
   return (
-    <div>
+    <div className={classes.satisfaction_container}>
       <div>
-        <img src="" />
+        <img src="\assets\image 6.png" />
       </div>
 
       <p>
@@ -13,3 +15,5 @@ const SatisfactionContainer = () => {
     </div>
   );
 };
+
+export default SatisfactionContainer;

@@ -3,6 +3,7 @@ import MainText from './MainText';
 import PaymentMethodContainer from './PaymentMethodContainer';
 import ProductDisplay from './ProductDisplay';
 import ProductSpecifications from './ProductSpecifications';
+import SatisfactionContainer from './SatisfactionContainer';
 import classes from './styles/MainContainer.module.css';
 
 const MainContainer = () => {
@@ -13,6 +14,7 @@ const MainContainer = () => {
       <ProductSpecifications />
       <DiscountContainer />
       <PaymentMethodContainer />
+      <SatisfactionContainer />
     </div>
   );
 };
