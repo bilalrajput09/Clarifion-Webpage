@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import OrderProcess from './Components/OrderProcess';
 import MainContainer from './Components/MainContainer';
+import Footer from './Components/Footer';
 
 const orderProcessArray = [
   { img_path: '/assets/Group 1484578147.png', text: 'Cart Review' },
@@ -28,6 +29,7 @@ function App() {
       </div>
 
       <MainContainer />
+      <Footer />
     </div>
   );
 }
