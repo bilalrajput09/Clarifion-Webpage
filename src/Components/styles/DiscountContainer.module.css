@@ -1,0 +1,15 @@
+.discount_container {
+  display: flex;
+  gap: 16px;
+  padding: 12px 16px;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #000;
+}
+
+.discount_container span {
+  color: #2c7ef8;
+}
