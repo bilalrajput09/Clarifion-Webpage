@@ -10,3 +10,42 @@
   display: flex;
   gap: 16px;
 }
+
+.nav_main_container :first-child {
+  width: 106px;
+  height: 20px;
+}
+
+.nav_image_container_2 :first-child {
+  width: 44px;
+  height: 16px;
+}
+
+.nav_image_container_2 :nth-child(2) {
+  width: 41px;
+  height: 16px;
+}
+
+/* Desktop styles (applies when the screen width is at least 1024px) */
+@media only screen and (min-width: 1024px) {
+  .nav_main_container {
+    padding: 30px 127px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav_main_container :first-child {
+    width: 192px;
+    height: 36px;
+  }
+
+  .nav_image_container_2 :first-child {
+    width: 88px;
+    height: 32px;
+  }
+
+  .nav_image_container_2 :nth-child(2) {
+    width: 82px;
+    height: 32px;
+  }
+}
