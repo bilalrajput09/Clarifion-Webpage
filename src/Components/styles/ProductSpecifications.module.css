@@ -1,0 +1,21 @@
+.product_specifications_conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  width: 100%;
+}
+
+.product_specifications_conatiner li {
+  display: flex;
+  gap: 12px;
+  color: #4d5254;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.product_specifications_conatiner img {
+  width: 16px;
+}

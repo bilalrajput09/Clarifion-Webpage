@@ -1,0 +1,9 @@
+.satisfaction_container {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  color: #4d5254;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 140%;
+}

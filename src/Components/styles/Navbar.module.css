@@ -1,0 +1,12 @@
+.nav_main_container {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.nav_image_container_2 {
+  display: flex;
+  gap: 16px;
+}

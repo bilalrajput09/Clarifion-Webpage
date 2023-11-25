@@ -1,0 +1,26 @@
+.slider_main_container {
+  background-color: #252f3d;
+  padding: 10px 20px;
+  color: white;
+}
+
+.slider_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider_container p {
+  display: flex;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.slider_container p img {
+  margin-right: 8px;
+}
+
+.slider_arrows {
+  width: 20px;
+  height: 20px;
+}

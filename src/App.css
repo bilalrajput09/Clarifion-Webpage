@@ -1,3 +1,7 @@
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.order_process_container {
+  display: flex;
+  width: 320px;
+  height: 37px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
